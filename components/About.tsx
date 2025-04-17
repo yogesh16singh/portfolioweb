@@ -20,7 +20,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="">
-        I am a frontend developer and I am constantly
+        I am a Software developer and I am constantly
         looking for ground-breaking solutions to issues that arise in daily
         life. In my work, I spend most of my time coming up with innovative
         solutions to development problems. (That's not entirely true, I just

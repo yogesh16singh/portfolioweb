@@ -106,12 +106,12 @@ export default function Intro() {
         </p>
         I'm a{" "}
         <span className="font-acorn font-extrabold">full-stack developer</span>{" "}
-        with <span className="font-acorn font-extrabold">1 years</span> of
+        with <span className="font-acorn font-extrabold">1 year</span> of
         experience. I enjoy building{" "}
         <span className="font-acorn font-extrabold">sites & apps</span>. My
         focus is{" "}
         <span className="font-acorn font-extrabold underline underline-offset-[10px] decoration-dashed">
-          React (Next.js) 🌟
+          Product building 🌟
         </span>
         .
       </motion.h1>

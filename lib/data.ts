@@ -7,6 +7,9 @@ import Filmpire from "@/public/Filmpire.png";
 import Ai_Image from "@/public/Ai_Image.webp";
 import foodlover from "@/public/foodlover.png";
 import unitychat from "@/public/unitychat.png";
+import guided from "@/public/guided.jpg";
+
+import { title } from "process";
 
 
 export const links = [
@@ -38,49 +41,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full Stack Web Development Trainee And Intern",
+    title: "Full Stack Web Development Trainee & Intern",
     location: "",
     description:
-      "When I was in 2nd Year of my Btech - IT course, to improve my skills and knowledge, I joined a 6 month Internship Program of Devtown. I was working on React, TypeScript, Tailwind, Node, Express and MongoDB.",
+      "During my 2nd year of B.Tech in IT, I joined a 6-month internship program at Devtown to strengthen my technical skills. I worked extensively with technologies including React, TypeScript, Tailwind CSS, Node.js, Express.js, and MongoDB, building full-stack web applications.",
     icon: React.createElement(CgWorkAlt),
     date: "JUNE 2022 – NOV 2022",
   },
   {
     title: "Frontend Intern at Simmi Foundation",
-    location: " ",
+    location: "",
     description:
-      "In 3rd Year I have completed 2 months internship at Simmi Foundation. there I worked on React Js and Javascript.",
+      "Completed a 2-month internship during my 3rd year where I focused on frontend development using React.js and JavaScript. Contributed to feature development and UI improvements.",
     icon: React.createElement(CgWorkAlt),
     date: "JUNE 2023 – JULY 2023",
   },
   {
-    title: "Software Development Engineering Frontend Internship at Corider",
-    location: "Remote ",
+    title: "Software Development Engineering Frontend Intern at Corider",
+    location: "Remote",
     description:
-      "I'm now a frontend developer working with Corider. My responsibilities include developing frontend and integrating it with backend services and working with service workers for PWA Features. Here I was working on React Js, TypeScript and Chakra UI. ",
+      "Led the implementation of authenticated sockets and file-sharing features in chats, reducing server load by 80%. Developed and integrated PWA features using service workers and worked closely with UI/UX designs. Technologies used: React.js, TypeScript, Chakra UI.",
     icon: React.createElement(CgWorkAlt),
-    date: "MAR 2024 – Present",
+    date: "MAR 2024 – SEPT 2024",
+  },
+  {
+    title: "Frontend Developer Intern at Enalo",
+    location: "Remote",
+    description:
+      "Worked on enhancing the user interface and developing new features using React.js and JavaScript. Debugged and resolved issues to ensure high performance, while actively collaborating with the team to contribute to overall product development.",
+    icon: React.createElement(CgWorkAlt),
+    date: "OCT 2024 – FEB 2025",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "GuideEd - AI-Powered Career Counseling Platform",
+    description: `Features: AI-based career suggestions (Gemini AI), real-time chat with counselors (Socket.IO), Redis caching, push notifications (Expo), secure payments (Stripe), Kafka-powered notifications, JWT authentication, and Express rate limiting.`,
+    tags: ["React Native", "Express.js", "MongoDB", "Socket.IO", "Kafka", "Redis", "Stripe"],
+    imageUrl: guided, // replace 'guided' with your actual image import
+  },
+  {
     title: "UnityChat - Real-time Communication and Collaboration Platform",
-    description:
-      `Features - Real-time messaging , unique invite system , member man-
-agement , authentication , Audio and Video Calls , WebSocket fallback mechanism`,
-    tags: ["TypeScript", "Next.js", "Socket IO", "Tailwind", "Prisma"],
+    description: `Features: Real-time messaging, unique invite system, member management, authentication (Clerk), audio/video calls (Livekit), light/dark mode, attachment sharing (UploadThing), and WebSocket fallback mechanism.`,
+    tags: ["TypeScript", "Next.js", "Socket.IO", "Tailwind CSS", "Prisma", "MySQL", "Shadcn"],
     imageUrl: unitychat,
   },
   {
-    title: "Food Lover - Browse and Order food from local restaurants.",
-    description:
-      `Features - Built Live APIs , State management with Redux , Add to Cart , Payment Gateway Integation , Autentication.`,
-    tags: ["React", "Mongo DB", "Express Js"],
+    title: "Food Lover - Browse and Order Food from Local Restaurants",
+    description: `Features: Live APIs, state management with Redux, Add to Cart, Payment Gateway Integration (Stripe), and authentication.`,
+    tags: ["React", "MongoDB", "Express.js", "Redux"],
     imageUrl: foodlover,
-  },
- 
+  }
 ] as const;
+
 
 export const skillsData = [
   "HTML",
@@ -89,14 +103,19 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "React Native",
   "Node.js",
+  "Golang",
+  "Kafka",
+  "Docker",
+  "Tailwind CSS",
+  "Chakra UI",
   "Git",
-  "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Express",
+  "Express Js",
   "Framer Motion",
   "Socket",
 ] as const;
